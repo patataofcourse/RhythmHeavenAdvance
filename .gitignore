@@ -1,19 +1,26 @@
-# Unneeded
-*_oameditor.bin
-
-# GBA Rom
+# GBA ROM
 *.gba
 
-# GBA save
-*.sav
+# Build folder
+build/*
 
-# Backup file, automatically created by HxD
+# Compressed graphics, created as part of the compilation process
+*.cdat
+*.rle
+*.dat
+
+# Unneeded artifacts
+*_oameditor.bin
 *.bak
+*.pal
+flipscfg.bin
 
-# GBA Save State (?)
+# My personal folder to not clutter the project.
+ShaffyOnly/*
+
+# Emulator stuff
+*.sav
 *.sgm
-
-# mGBA Save State
 *.ss1
 *.ss2
 *.ss3
@@ -23,23 +30,5 @@
 *.ss7
 *.ss8
 *.ss9
-
-# Gameshark GBA Save
 *.sps
-
-# FLIPS Configuration
-flipscfg.bin
-
-# Compressed graphics, created as part of the compilation process
-*.cdat
-*.rle
-*.dat
-
-# rom folder
-build/*
-
-# mGBA cheats
 *.cheats
-
-# My personal folder to not clutter the project.
-ShaffyOnly/*
